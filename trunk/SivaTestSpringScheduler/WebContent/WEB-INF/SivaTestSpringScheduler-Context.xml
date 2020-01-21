@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation=" 
+http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/task
+ http://www.springframework.org/schema/task/spring-task-3.0.xsd
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+	
+	<bean id="testTask" class="com.sivavaka.test.spring.scheduler.TestTask">
+	</bean>	
+	
+	<bean id= "timerScheduler" class="org.springframework.scheduling.commonj.TimerManagerTaskScheduler" >
+	      <property name="resourceRef" value="true"/>
+	      <property name="timerManagerName" value="timerManager"/>
+	</bean>
+
+	<!-- To schedule job for every one hour then cron will be "0 0 0/1 * * ?" -->
+	<!-- Websphere Compliant Thread :: Runs for every 5 mins --> 	
+	<task:scheduled-tasks scheduler="timerScheduler" >
+	      <task:scheduled ref="testTask" method="run" cron="0 0/5 * * * ?" />
+	</task:scheduled-tasks >
+	
+	
+	<!-- Unmanaged Thread :::Runs for every 5 mins
+	<task:scheduler id="SivaTestUnmanagedThreadScheduler"/>
+	<task:scheduled-tasks scheduler="SivaTestUnmanagedThreadScheduler" >
+	      <task:scheduled ref="testTask" method="run" cron="0 0/5 * * * ?" />
+	</task:scheduled-tasks >
+	-->
+	
+</beans>

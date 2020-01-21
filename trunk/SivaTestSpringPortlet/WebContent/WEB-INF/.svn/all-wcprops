@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF
+END
+SivaTestSpringPortlet-Portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/SivaTestSpringPortlet-Portlet.xml
+END
+portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/portlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/web.xml
+END
+ibm-web-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/ibm-web-ext.xml
+END
+SivaTestSpringPortlet-Context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/SivaTestSpringPortlet-Context.xml
+END
+ibm-web-bnd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/SivaTestSpringPortlet/WebContent/WEB-INF/ibm-web-bnd.xml
+END

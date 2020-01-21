@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" id="com.sivavaka.test.springportlet.SivaTestSpringPortlet.58abb9cd14">
+	<portlet>
+		<portlet-name>SivaTestSpringPortlet</portlet-name>
+		<display-name xml:lang="en">SivaTestSpringPortlet</display-name>
+		<display-name>SivaTestSpringPortlet</display-name>
+		<portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<init-param>
+			<name>contextConfigLocation</name>
+			<value>/WEB-INF/SivaTestSpringPortlet-Portlet.xml</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
+			<portlet-mode>help</portlet-mode>
+		</supports>
+		<supported-locale>en</supported-locale>
+		<resource-bundle>com.sivavaka.test.springportlet.nl.SivaTestSpringPortletResource</resource-bundle>
+		<portlet-info>
+			<title>SivaTestSpringPortlet</title>
+			<short-title>SivaTestSpringPortlet</short-title>
+			<keywords>SivaTestSpringPortlet</keywords>
+		</portlet-info>
+	</portlet>
+	<default-namespace>http://SivaTestSpringPortlet/</default-namespace>
+</portlet-app>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/CustomWcmEmailBodyWorkFlowAction/WebContent/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/trunk/CustomWcmEmailBodyWorkFlowAction/WebContent/WEB-INF/web.xml
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7/trunk/CustomWcmEmailBodyWorkFlowAction/WebContent/WEB-INF/plugin.xml
+END
+ibm-web-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/7/trunk/CustomWcmEmailBodyWorkFlowAction/WebContent/WEB-INF/ibm-web-ext.xml
+END
+ibm-web-bnd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/7/trunk/CustomWcmEmailBodyWorkFlowAction/WebContent/WEB-INF/ibm-web-bnd.xml
+END

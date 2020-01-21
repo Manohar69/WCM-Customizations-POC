@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id= "com.ibm.workplace.wcm.api.custom" name= "Sample Custom Workflow Action Factory" version= "1.0.0" provider-name= "IBM" >
+<extension-point id= "CustomWorkflowActionFactory" name="CustomWorkflowActionFactory" />
+<extension point="com.ibm.workplace.wcm.api.CustomWorkflowActionFactory" id= "SivaTestCustomWcmEmailBodyWorkFlowActionFactory" >
+	<provider class= "com.sivavaka.wcm.custom.workflow.SivaTestCustomWcmEmailBodyWorkFlowActionFactory"/>
+</extension>
+</plugin>

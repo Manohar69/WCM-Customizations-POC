@@ -1,0 +1,8 @@
+# Default Resource Bundle
+#
+# filename: SivaTestSpringPortletResource.properties
+# Portlet Info resource bundle example
+javax.portlet.title=SivaTestSpringPortlet
+javax.portlet.short-title=SivaTestSpringPortlet
+javax.portlet.keywords=SivaTestSpringPortlet
+
